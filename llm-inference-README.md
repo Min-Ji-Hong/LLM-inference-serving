@@ -69,7 +69,7 @@ and a manuscript draft targeting an AI systems / cloud computing venue.
 
 ```
 ├── docs/          # progress reports, proposal
-├── src/           # (실제 코드가 있다면 여기에)
+├── src/           
 ├── docker/        # Dockerfiles
 └── README.md
 ```
