@@ -1,0 +1,11 @@
+# docker/requirements.txt
+# Dependency pinning to prevent environmental drift and compatibility issues
+
+vllm==0.3.3
+torch==2.1.2
+transformers==4.38.2  # Pinned to avoid the register_pytree_node bug in 4.39.1
+accelerate==0.27.2
+ray==2.9.3
+fastapi==0.110.0
+uvicorn==0.27.1
+aiohttp==3.9.3
